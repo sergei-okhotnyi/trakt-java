@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    repositories {
+        jcenter()
+    }
+
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    dependencies {
+
+//        compile 'com.squareup.okhttp:okhttp:2.2.0'
+//        compile 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
+        compile 'com.squareup.retrofit:retrofit:1.9.0'
+    }
+}
